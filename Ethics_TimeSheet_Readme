@@ -1,0 +1,19 @@
+Readme for Ethics_TimeSheet.ahk
+; Automates submitting of State Officials and Employees Ethics Act (SOEEA) time sheets.
+; This assumes that you worked Monday through Friday and 7.5 hours per day.
+; Use at your own discretion. I am not responsible for any consequences of you using this script.
+
+NOTE: Don't use this on weeks where you did not work a full 37.5 hour workweek.
+
+Dependencies:
+Download AutoHotkey from https://www.autohotkey.com/ and install
+Download Ethics_TimeSheet.ahk from here and put it somewhere convenient
+
+Instructions:
+1) Double click on Ethics_TimeSheet.ahk to load it (you should see a green H icon appear in the taskbar notification area).
+2) Pull up your desired time report using the dropdown and 'Get Time Report' button.
+3) Place your cursor after the 0 in Sunday Hours.
+4) Press Ctrl+J to start.
+5) Script autofills 7 hours and 30 minutes for Monday through Friday and auto-submits the time report.
+6) Select the next time report you want using the dropdown and 'Get Time Report' button.
+7) Rinse and repeat as needed.
